@@ -45,7 +45,6 @@ class GroupMemberHandler(RedisHandler):
         if form.validate():
             try:
                 group = await self.application.objects.get(CommunityGroup, id=int(group_id))
-
                 existed = await self.application.objects.get(CommunityGroupMember, community=group, user=self.current_user)
                 self.set_status(400)
                 re_data["non_fields"] = "用户已经加入"

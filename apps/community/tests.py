@@ -19,7 +19,7 @@ headers={
     }
 def new_group():
     files = {
-        "front_image":open("D:/images/python.png", "rb")
+        "front_image":open("/home/itcast/image/python.png", "rb")
     }
     data = {
         "name": "python",
@@ -95,18 +95,18 @@ def add_like(comment_id):
 
 if __name__ == "__main__":
 
-    #新建小组
-    # new_group()
+    #new_group()
+    apply_group(1, "test")
     # get_group(1)
 
     # add_post(1)
 
     # get_post(100)
 
-    add_comments(3)
-    get_comments(3)
-
-    add_reply(1)
-    get_replys(1)
-
-    add_like(1)
+    # add_comments(3)
+    # get_comments(3)
+    #
+    # add_reply(1)
+    # get_replys(1)
+    #
+    # add_like(1)
