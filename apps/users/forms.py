@@ -2,7 +2,7 @@ from wtforms_tornado import Form
 from wtforms import StringField
 from wtforms.validators import DataRequired, Regexp
 
-MOBILE_REGEX = "^1[358]\d{9}$|^1[48]7\d{8}$|^173\d{8}$|^176\d{8}$|^177\d{8}$"
+MOBILE_REGEX = "^1[358]\d{9}$|^1[48]7\d{8}$|^173\d{8}$|^176\d{8}$|^177\d{8}$|^166\d{8}$"
 
 
 
