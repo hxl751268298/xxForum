@@ -6,7 +6,7 @@ python版本： 3.6.4
 
 引用的第三方库和包：requerements.txt
 
-前端文件：forum-html
+前端文件：mxforum-html
 接口测试文件：每个应用文件夹里有个tests.py
 
 
