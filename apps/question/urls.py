@@ -2,7 +2,7 @@ from tornado.web import url
 
 from apps.question.handler import *
 
-urlpattern = (
+urlpatterns = (
     url("/questions/", QuestionHandler),
     url("/questions/([0-9]+)/", QuestionDetailHandler),
 

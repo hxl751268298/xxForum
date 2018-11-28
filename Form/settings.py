@@ -14,12 +14,12 @@ settings = {
     "db": {
         "host": "127.0.0.1",
         "user": "root",
-        "password": "123456",
-        "name": "forum",
+        "password": "root",
+        "name": "message",
         "port": 3306
     },
-    "redis": {
-        "host": "127.0.0.1"
+    "redis":{
+        "host":"127.0.0.1"
     }
 }
 
